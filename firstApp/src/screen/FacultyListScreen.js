@@ -45,7 +45,6 @@ const styles = StyleSheet.create(
             fontSize: 20,
             color: 'black',
             textDecorationLine: 'underline',
-            tex
 
         },
     }
