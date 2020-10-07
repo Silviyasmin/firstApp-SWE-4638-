@@ -12,6 +12,7 @@ const FacultyListScreen = () =>{
     ];
     return(
         <View style={styles.viewStyle}>
+            <Text style={styles.titleStyle}>Name of Faculty Members</Text>
             <FlatList
             data = {faculty}
                 renderItem = {function({item}){
@@ -30,13 +31,22 @@ const styles = StyleSheet.create(
             fontSize: 20,
             color: 'black',
             marginVertical: 25, 
+            //alignSelf: 'center',
         },
         viewStyle: {
             //borderColor: 'red',
-            //margin: 50,
+            margin: 50,
             alignSelf: 'center',
             
             
+        },
+        titleStyle:
+        {
+            fontSize: 20,
+            color: 'black',
+            textDecorationLine: 'underline',
+            tex
+
         },
     }
 );
